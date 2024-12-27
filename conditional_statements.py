@@ -22,7 +22,7 @@ a = 12
 b = 20
 c = 13
 
-if(a>b):
+if a>b:
   print("a is less than b")
 elif(a>c):
   print("a is greater than c")
@@ -39,7 +39,7 @@ x = 12
 y = 10
 z = 30
 
-if(x>y):
+if x>y:
   if(x<z):
     print("x is less than z")
   else:
@@ -47,4 +47,7 @@ if(x>y):
 else:
   if(y>z):
     print("y is greater than x and z")
+
+
+
 
