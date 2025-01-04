@@ -10,7 +10,8 @@ class Circle:
     self.color = col
 
   def findArea(self):
-    print("The area of the circle is:", 3.14 * self.radius * self.radius)
+    area = 3.14 * self.radius * self.radius
+    print("The area of the circle is:", area)
 
   def findCircumference(self):
     print("The circumference of the circle is:", 2 * 3.14 * self.radius)
