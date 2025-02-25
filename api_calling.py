@@ -15,6 +15,8 @@ url = "https://hacker-news.firebaseio.com/v0/item/192327.json"
 response= requests.get(url)
 # print(response.json())
 
+# requests.post("",{"name":"Arpit","age":20}) for post data
+
 dictionary = json.loads(response.text)
 print(dictionary['title'])
 print(dictionary['text'])
